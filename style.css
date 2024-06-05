@@ -1,0 +1,91 @@
+/* header area starts here */
+.nav-area {
+  display: flex;
+  align-items: center;
+}
+.left-section {
+  width: 40%;
+  margin-left: auto;
+}
+.right-section {
+  width: 40%;
+  margin-right: auto;
+}
+.nav-bar ul li {
+  display: flex;
+  justify-content: space-between;
+}
+.nav-bar ul li a {
+  color: var(--font-color);
+  text-decoration: none;
+}
+.header-button {
+  padding-top: 12px;
+}
+
+.header-content-container {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 5%;
+}
+.header-image-section img {
+  width: 70%;
+border-radius: 50%;
+  margin-left: 30%;
+}
+.header-title h1 {
+    font-size: 35px;
+  line-height: 150%;
+}
+.para-text {
+    width: 70%;
+  font-size: 14px;
+}
+.portfolio-button {
+  border-radius: 20px;
+  padding: 8px 20px;
+  background-color: var(--button-color);
+}
+#shape-button {
+  padding: 12px 6px 12px 6px;
+  background-color: rgb(51, 51, 51);
+  border-radius: 20px;
+  border: none;
+}
+#shape-button a {
+  color: var(--font-color);
+  text-decoration: none;
+}
+.social-media-links i {
+  margin-top: 10px;
+  padding: 4px;
+}
+.header-banner {
+  font-size: 25px;
+  padding: 20px;
+  background-color: black;
+  transform: rotate(-4deg);
+}
+.header-banner-content .star-img {
+  width: 3%;
+  height: 3%;
+}
+.about-me-section{
+    margin: 70px 0px 60px 0px;
+    display: flex;
+    justify-content: space-around;
+}
+.about-me-title{
+    width: 70%;
+    margin-left: 10%;
+}
+.about-me-desc{
+    width: 20%;
+}
+.star-icon{
+    color: rgb(255, 102, 7);
+}
+/* header area ends here */
+
+/* nav area ends here */
+/* nav area ends here */

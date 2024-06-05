@@ -1,0 +1,41 @@
+@media only screen and (min-width: 200px) and (max-width: 576px) {
+  body {
+    font-size: 60%;
+    /* width: 60%; */
+    border: 1px solid red;
+  }
+  .header-button {
+    display: none;
+  }
+  .button {
+    padding: 4px 12px;
+    font-size: 5px;
+  }
+  .header-content-container {
+    flex-direction: column-reverse;
+  }
+  .header-image-section img {
+    width: 100%;
+  }
+  .header-content-section {
+    margin-left: 10px;
+  }
+  .header-content-section h1 {
+    font-size: 14px;
+  }
+  .header-content-section p {
+    font-size: 8px;
+  }
+  .header-desc span {
+    font-size: 8px;
+  }
+  #shape-button a {
+    font-size: 8px;
+  }
+  .header-banner {
+    display: none;
+  }
+  .experience-section{
+flex-direction: column;
+  }
+}
